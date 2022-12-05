@@ -83,17 +83,20 @@ public class Main {
 
 
     public static void task4() {
-    int[] arr1 = {1, 2, 3};
+        int[] arr1 = {1, 2, 3};
 
         for (int i = 0; i < arr1.length; i++) {
             if (arr1[i] % 2 != 0) {
                 arr1[i] += 1;
-        }
-    }
-        System.out.println(Arrays.toString(arr1);
+            }
 
+        }
+        System.out.println(Arrays.toString(arr1));
     }
 }
+
+
+
 
 
 
